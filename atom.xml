@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-04-24T09:00:26.763Z</updated>
+  <updated>2017-04-24T10:43:15.979Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/04/24/article-title/"/>
     <id>http://yoursite.com/2017/04/24/article-title/</id>
     <published>2017-04-24T08:44:11.496Z</published>
-    <updated>2017-04-24T09:00:26.763Z</updated>
+    <updated>2017-04-24T10:43:15.979Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Sass-styuls"><a href="#Sass-styuls" class="headerlink" title="Sass styuls"></a>Sass styuls</h2><blockquote>
 <p>一款比较流行的预处理CSS，支持变量、混合、函数、嵌套、循环等特点<br><a href="http://lesscss.org/" target="_blank" rel="external">官网</a><br><a href="http://lesscss.cn/" target="_blank" rel="external">中文网</a><br><a href="http://www.w3cplus.com/css/less" target="_blank" rel="external">http://www.w3cplus.com/css/less</a></p>
@@ -58,8 +58,11 @@
 </blockquote>
 <ul>
 <li><p>less</p>
-<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">@变量名: 变量值;</div><div class="line"><span class="variable">@bgColor:</span> <span class="number">#f5f5f5</span>;</div><div class="line"></div><div class="line"><span class="selector-tag">body</span>&#123;</div><div class="line">  <span class="attribute">width</span>: @变量名;</div><div class="line">  <span class="attribute">background-color</span>: <span class="variable">@bgColor</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">@变量名: 变量值;</div><div class="line"><span class="variable">@bgColor:</span> <span class="number">#f5f5f5</span>;</div></pre></td></tr></table></figure>
 </li>
+</ul>
+<p>  body{<br>    width: @变量名;<br>    background-color: @bgColor;<br>  }<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"> </div></pre></td></tr></table></figure></p>
+<ul>
 <li><p>css</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">body</span>&#123;</div><div class="line">  <span class="attribute">width</span>: 变量值;</div><div class="line">  <span class="attribute">background-color</span>: <span class="number">#f5f5f5</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 </li>
